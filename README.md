@@ -1,6 +1,5 @@
-# module4unit1
-#this program tells the user to input thier name and age
-#it uses the information provided to calculate thier age in 100 years
+# Project 1
+
 name = input("enter your name")
 age = int(input("enter your age"))
 def age_in_100(age):
@@ -11,3 +10,15 @@ calculated_year = age_in_100(age)
     
 print("Hello", name, "you are", age,  "you will be 100 in", calculated_year "!")
     
+
+
+
+
+
+
+
+num = int(input("Enter a num"))
+if (num % 2) == 0:
+    print("This is an even number")
+else:
+    print("This is an odd number")
